@@ -1,0 +1,29 @@
+import java.util.*;
+class AreaCircle
+{
+	Scanner sc=new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		Circle();
+		Square();
+		Triangle();
+	}
+	public static void Circle(){
+		System.out.println("Enter Radius:");
+		int r=sc.nextInt();
+		System.out.println("Area of Circle: "+3.14*r*r);
+	}
+	public static void Square(){
+		System.out.println("Enter side:");
+		int s=sc.nextInt();
+		System.out.println("Area of Circle: "+s*s);
+	}
+	public static void Triangle(){
+		System.out.println("Enter height:");
+		int h=sc.nextInt();
+		System.out.println("Enter breadth:");
+		int b=sc.nextInt();
+		System.out.println("Area of Traingle: "+(1/2)*b*h);
+	}
+
+}

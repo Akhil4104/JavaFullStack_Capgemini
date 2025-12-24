@@ -1,0 +1,39 @@
+import java.util.*;
+class Armstrong 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		int res=Count(n);
+		int ans=Sum(res,n);
+		if(ans==n){
+			System.out.println(ans+" is a armstrong number");
+		}
+		else{
+			System.out.println(ans +" is not a armstrong number");
+		}
+
+	}
+	public static int Count(int n){
+		int cnt=0;
+		while(n>0){
+			cnt++;
+			n/=10;
+		}
+		return cnt;
+	}
+	public static int Sum(int res,int n){
+		int sum=0;
+		while(n>0){
+			int d=n%10;
+			int prod=1;
+			for(int i=1;i<=res;i++){
+				prod*=d;
+			}
+			sum+=prod;
+			n/=10;
+		}
+		return sum;
+	}
+}

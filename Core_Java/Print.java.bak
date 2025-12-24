@@ -1,0 +1,17 @@
+class Print
+{
+	public static void main(String[] args) 
+	{
+		System.out.print("Hi");
+		System.out.println(" Hello");
+		System.out.print("Lpu");
+		System.out.print(" Welcome");
+		System.out.print(" to");
+		System.out.print(" Java");
+		System.out.print(" Class");
+		//System.out.print();no suitable method found for print(no arguments)
+		System.out.println();
+		System.out.print("");
+
+	}
+}

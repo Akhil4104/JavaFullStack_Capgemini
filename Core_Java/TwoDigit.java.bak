@@ -1,0 +1,12 @@
+import java.util.*;
+class TwoDigit 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		String res =(n > 0)? (n >= 10 && n <= 99)? "Is a Two Digit positive number": "Is not a Two Digit positive number": "Is a negative Number";
+		System.out.println(res);
+		}
+	}
+}

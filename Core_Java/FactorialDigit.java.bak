@@ -1,0 +1,18 @@
+import java.util.*;
+class FactorialDigit
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		while(n>0){
+			int digit=n%10;
+			int fact=1;
+			for(int i=1;i<=n;i++){
+				fact*=i;
+			}
+			System.out.println("Fact of "+digit+": "+fact);
+			n/=10;
+		}
+	}
+}
