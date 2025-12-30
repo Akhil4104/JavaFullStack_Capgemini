@@ -1,3 +1,4 @@
+package Pattern;
 class Pattern9
 {
 	public static void main(String[] args) 

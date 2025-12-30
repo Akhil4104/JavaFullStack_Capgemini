@@ -1,3 +1,4 @@
+package Basic;
 class LogicalOperator 
 {
 	public static void main(String[] args) 

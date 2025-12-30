@@ -1,3 +1,4 @@
+package Basic;
 import java.util.Scanner;
 class FactorOfDigit {
     public static void main(String[] args) {

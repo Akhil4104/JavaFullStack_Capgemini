@@ -9,7 +9,8 @@ public class MainApp {
 		Demo1 d1=new Demo1();
 		Demo1 d2=new Demo1();
 		System.out.println(d);
-		
+		//Parameterized constructor 
+		Demo2 b1=new Demo2("Java",2000);
 		d.title="Java";
 		d.price=2000;
 		d1.title="C++";

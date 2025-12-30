@@ -1,3 +1,4 @@
+package Basic;
 import java.util.*;
 class StudentGrade {
     public static void main(String[] args) {

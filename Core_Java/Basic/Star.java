@@ -1,3 +1,4 @@
+package Basic;
 class Star 
 {
 	public static void main(String[] args) 

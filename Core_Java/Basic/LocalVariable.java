@@ -1,3 +1,4 @@
+package Basic;
 class LocalVariable 
 {
 	//b1

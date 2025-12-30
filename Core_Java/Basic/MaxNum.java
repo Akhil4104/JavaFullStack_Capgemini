@@ -1,3 +1,4 @@
+package Basic;
 class MaxNum 
 {
 	public static void main(String[] args) 

@@ -1,3 +1,4 @@
+package Basic;
 public class PrimePrint {
 
 	public static void main(String[] args) {

@@ -1,3 +1,4 @@
+package Basic;
 class Prints
 {
 	public static void main(String[] args) 

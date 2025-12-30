@@ -1,3 +1,4 @@
+package Basic;
 import java.util.*;
 class TriangleType {
     public static void main(String[] args) {

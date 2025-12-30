@@ -1,3 +1,4 @@
+package Basic;
 class DataType 
 {
 	public static void main(String[] args) 

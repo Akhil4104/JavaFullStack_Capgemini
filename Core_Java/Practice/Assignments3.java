@@ -1,3 +1,4 @@
+package Practice;
 import java.util.*;
 class Assignments3
 {

@@ -1,3 +1,4 @@
+package Basic;
 class Typecast 
 {
 	public static void main(String[] args) 

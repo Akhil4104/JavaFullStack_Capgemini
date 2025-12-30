@@ -1,3 +1,4 @@
+package Basic;
 class Scope 
 {
 	public static int c=15;
@@ -5,7 +6,7 @@ class Scope
 	{
 		final int a=5;
 		System.out.println(a);
-		a=30;
+		//a=30;
 		System.out.println(a);
 		res();
 	}

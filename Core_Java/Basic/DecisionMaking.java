@@ -1,3 +1,4 @@
+package Basic;
 class DecisionMaking 
 {
 	public static void main(String[] args) 

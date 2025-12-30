@@ -1,3 +1,4 @@
+package Basic;
 class Practice 
 {
 	public static void main(String[] args) 
