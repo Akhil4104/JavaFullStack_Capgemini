@@ -11,8 +11,6 @@ public class DoctorService extends BaseService<Doctor> {
     public DoctorService() {
         super(Doctor.class);
     }
-
-    // Assign patient to doctor (ManyToMany)
     public void assignPatient(Long doctorId, Long patientId) {
 
         EntityManager em = JpaUtil.getFactory().createEntityManager();
@@ -26,8 +24,6 @@ public class DoctorService extends BaseService<Doctor> {
         em.getTransaction().commit();
         em.close();
     }
-
-    // Fetch doctor with patients using JOIN FETCH
     public Doctor getDoctorWithPatients(Long doctorId) {
 
         EntityManager em = JpaUtil.getFactory().createEntityManager();
@@ -42,8 +38,6 @@ public class DoctorService extends BaseService<Doctor> {
         em.close();
         return doctor;
     }
-
-    // Add appointment to doctor (Uni 1:N)
     public void addAppointment(Long doctorId, Appointment appointment) {
 
         EntityManager em = JpaUtil.getFactory().createEntityManager();
