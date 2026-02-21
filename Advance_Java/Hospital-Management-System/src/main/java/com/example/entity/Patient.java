@@ -51,8 +51,7 @@ public class Patient {
     public List<Doctor> getDoctors() {
         return doctors;
     }
-
-    // ===== Setters =====
+    
     public void setName(String name) {
         this.name = name;
     }
