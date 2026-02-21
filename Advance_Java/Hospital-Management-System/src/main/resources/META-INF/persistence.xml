@@ -1,0 +1,39 @@
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             version="3.0">
+
+    <persistence-unit name="hospitalPU">
+
+
+        <class>com.example.entity.Patient</class>
+        <class>com.example.entity.MedicalRecord</class>
+        <class>com.example.entity.Department</class>
+        <class>com.example.entity.Doctor</class>
+        <class>com.example.entity.Appointment</class>
+        <class>com.example.entity.Prescription</class>
+
+        <properties>
+            <property name="jakarta.persistence.jdbc.driver"
+                      value="com.mysql.cj.jdbc.Driver"/>
+
+            <property name="jakarta.persistence.jdbc.url"
+                      value="jdbc:mysql://localhost:3306/hospital_db?createDatabaseIfNotExist=true"/>
+
+            <property name="jakarta.persistence.jdbc.user"
+                      value="root"/>
+
+            <property name="jakarta.persistence.jdbc.password"
+                      value="root"/>
+
+            <property name="hibernate.dialect"
+                      value="org.hibernate.dialect.MySQL8Dialect"/>
+
+            <property name="hibernate.hbm2ddl.auto"
+                      value="update"/>
+
+            <property name="hibernate.show_sql"
+                      value="true"/>
+        </properties>
+
+    </persistence-unit>
+
+</persistence>
