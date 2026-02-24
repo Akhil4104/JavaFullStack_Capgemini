@@ -51,7 +51,11 @@ public class Patient {
     public List<Doctor> getDoctors() {
         return doctors;
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 9526547365ede99b76e34b5ae6bb092b531e9de1
     public void setName(String name) {
         this.name = name;
     }
