@@ -19,7 +19,6 @@ public class Department {
             fetch = FetchType.LAZY)
     private List<Doctor> doctors = new ArrayList<>();
 
-    // ===== Helper Methods =====
 
     public void addDoctor(Doctor d){
         doctors.add(d);

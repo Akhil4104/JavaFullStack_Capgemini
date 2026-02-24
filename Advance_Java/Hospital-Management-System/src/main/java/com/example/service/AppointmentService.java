@@ -9,8 +9,6 @@ public class AppointmentService extends BaseService<Appointment> {
     public AppointmentService() {
         super(Appointment.class);
     }
-
-    // Add prescription to appointment
     public void addPrescription(Long appointmentId, Prescription prescription) {
 
         EntityManager em = JpaUtil.getFactory().createEntityManager();

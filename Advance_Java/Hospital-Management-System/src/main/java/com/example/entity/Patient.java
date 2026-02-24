@@ -52,7 +52,6 @@ public class Patient {
         return doctors;
     }
 
-    // ===== Setters =====
     public void setName(String name) {
         this.name = name;
     }
@@ -67,5 +66,6 @@ public class Patient {
     }
     public void setMedicalRecord(MedicalRecord medicalRecord) {
         this.medicalRecord = medicalRecord;
+
     }
 }

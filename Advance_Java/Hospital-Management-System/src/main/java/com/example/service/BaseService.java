@@ -41,10 +41,7 @@ public class BaseService<T> {
 
     public List<T> findAll() {
         EntityManager em = JpaUtil.getFactory().createEntityManager();
-        List<T> list = em.createQuery(
-                "FROM " + entityClass.getSimpleName(),
-                entityClass
-        ).getResultList();
+        List<T> list = em.createQuery("FROM " + entityClass.getSimpleName(), entityClass).getResultList();
         em.close();
         return list;
     }
