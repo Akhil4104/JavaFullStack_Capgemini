@@ -3,7 +3,8 @@ package com.capgemini.Spring.service;
 import com.capgemini.Spring.dto.StudentRequestDto;
 import com.capgemini.Spring.dto.StudentResponseDto;
 import com.capgemini.Spring.entity.Student;
-import com.capgemini.Spring.repository.StudentRepository;
+import com.capgemini.Spring.exception.StudentNotFoundException;
+import com.capgemini.Spring.repository.IStudentRepo;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -12,9 +13,9 @@ import java.util.stream.Collectors;
 @Service
 public class StudentServiceImpl implements IStudentService {
 
-    private final StudentRepository studentRepository;
+    private final IStudentRepo studentRepository;
 
-    public StudentServiceImpl(StudentRepository studentRepository) {
+    public StudentServiceImpl(IStudentRepo studentRepository) {
         this.studentRepository = studentRepository;
     }
 

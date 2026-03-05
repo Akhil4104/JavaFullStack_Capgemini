@@ -20,6 +20,5 @@ public class Warehouse {
     private int capacity;
 
     @OneToMany(mappedBy = "warehouse",cascade=CascadeType.ALL)
-    @JsonIgnore
     private List<Shipment>shipments;
 }

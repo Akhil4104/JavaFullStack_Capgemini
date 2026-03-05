@@ -23,6 +23,5 @@ public class TrackingEvent {
 
     @ManyToOne
     @JoinColumn(name="shipment_id")
-    @JsonIgnore
     private Shipment shipment;
 }
